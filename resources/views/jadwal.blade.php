@@ -11,7 +11,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    
+
     <div class="container">
         <table class="table">
             <thead>
@@ -35,9 +35,9 @@
                 @endforeach
             </tbody>
             {{-- @php
-             dd($jadwals);   
+             dd($jadwals);
             @endphp --}}
-            
+
           </table>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->

@@ -17,6 +17,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('index');
+});
+
+// sakmarine login melbu home
+
+Route::get('/rentform', function () {
+    return view('rentform');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/admin', function () {
     return view('dashboard.dashboard');
 });
 
